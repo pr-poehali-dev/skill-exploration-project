@@ -28,14 +28,22 @@ const categories = [
 ];
 
 const products: Product[] = [
-  { id: 1, name: 'Витаминный комплекс премиум', price: 4500, category: 'health', image: 'https://cdn.poehali.dev/projects/e19ffcda-500b-4173-8ecf-df3943387ea1/files/a674093c-aee4-4377-a787-d9e768e632ff.jpg' },
-  { id: 2, name: 'Сыворотка для лица люкс', price: 8900, category: 'beauty', image: 'https://cdn.poehali.dev/projects/e19ffcda-500b-4173-8ecf-df3943387ea1/files/797f642f-e8e8-4e06-8a3e-afbb52938fbb.jpg' },
-  { id: 3, name: 'Органический шампунь', price: 2200, category: 'hygiene', image: 'https://cdn.poehali.dev/projects/e19ffcda-500b-4173-8ecf-df3943387ea1/files/797f642f-e8e8-4e06-8a3e-afbb52938fbb.jpg' },
-  { id: 4, name: 'Аромадиффузор премиум', price: 5500, category: 'lifestyle', image: 'https://cdn.poehali.dev/projects/e19ffcda-500b-4173-8ecf-df3943387ea1/files/797f642f-e8e8-4e06-8a3e-afbb52938fbb.jpg' },
-  { id: 5, name: 'Органический мёд артизан', price: 1800, category: 'food', image: 'https://cdn.poehali.dev/projects/e19ffcda-500b-4173-8ecf-df3943387ea1/files/360494d3-2c63-4e45-9714-c7bb2d15338f.jpg' },
-  { id: 6, name: 'Коллагеновые добавки', price: 6200, category: 'health', image: 'https://cdn.poehali.dev/projects/e19ffcda-500b-4173-8ecf-df3943387ea1/files/a674093c-aee4-4377-a787-d9e768e632ff.jpg' },
-  { id: 7, name: 'Крем для рук люкс', price: 3400, category: 'beauty', image: 'https://cdn.poehali.dev/projects/e19ffcda-500b-4173-8ecf-df3943387ea1/files/797f642f-e8e8-4e06-8a3e-afbb52938fbb.jpg' },
-  { id: 8, name: 'Зубная паста премиум', price: 1500, category: 'hygiene', image: 'https://cdn.poehali.dev/projects/e19ffcda-500b-4173-8ecf-df3943387ea1/files/797f642f-e8e8-4e06-8a3e-afbb52938fbb.jpg' },
+  { id: 1, name: 'Атоми ХемоХИМ', price: 12610, category: 'health', image: 'https://cdn.poehali.dev/files/0717f853-ef72-462a-a0cb-8d99d0988f2c.jpg' },
+  { id: 2, name: 'Атоми Витамин C', price: 2860, category: 'health', image: 'https://cdn.poehali.dev/files/7c07d277-99b5-4606-85f4-5a614338a9e2.jpg' },
+  { id: 3, name: 'Атоми Аляска Е-Омега 3', price: 2860, category: 'health', image: 'https://cdn.poehali.dev/files/a3cda9ff-1bb3-434e-a968-35fe86b2d936.jpg' },
+  { id: 4, name: 'Атоми Спирулина', price: 2860, category: 'health', image: 'https://cdn.poehali.dev/files/4b0a7af0-f741-4e16-9842-155adaaec2e3.jpg' },
+  { id: 5, name: 'Атоми Пробиотик 10+', price: 4030, category: 'health', image: 'https://cdn.poehali.dev/files/b0e8ec98-1279-4600-a300-ab92d43ad20c.jpg' },
+  { id: 6, name: 'Атоми Слим Боди Эпплфенон', price: 3640, category: 'health', image: 'https://cdn.poehali.dev/files/282d52b3-bbe1-474e-bf5e-5c88607af18b.jpg' },
+  { id: 7, name: 'Атоми Ферментированный концентрат Нони', price: 7800, category: 'health', image: 'https://cdn.poehali.dev/files/4f414916-0b06-4ad9-8b76-c19b4d3c4611.jpg' },
+  { id: 8, name: 'Атоми rTG Омега-3', price: 5590, category: 'health', image: 'https://cdn.poehali.dev/files/890f9b78-cc78-4f20-8c98-534d81cb4687.jpg' },
+  { id: 9, name: 'Атоми Железо', price: 3640, category: 'health', image: 'https://cdn.poehali.dev/files/68b89b32-7672-4be5-aecc-0138ce1e4163.jpg' },
+  { id: 10, name: 'Атоми Ай Лютеин', price: 3900, category: 'health', image: 'https://cdn.poehali.dev/files/b6586f7f-0f7c-49bf-83d6-24a976632329.jpg' },
+  { id: 11, name: 'Атоми Премиум Лютеин', price: 4550, category: 'health', image: 'https://cdn.poehali.dev/files/6d62bcf4-6f88-41a0-aaaa-e30daa6add25.jpg' },
+  { id: 12, name: 'Атоми Чай Пуэр для Похудения', price: 3640, category: 'health', image: 'https://cdn.poehali.dev/files/d6d65068-9a8e-4119-831c-285e7f2b5076.jpg' },
+  { id: 13, name: 'Атоми ХемоХИМ набор (4 упаковки)', price: 47190, category: 'health', image: 'https://cdn.poehali.dev/files/dcedc7f9-3470-40e0-a3c8-4fe2b67700ae.jpg' },
+  { id: 14, name: 'Атоми Банаба и Красный женьшень', price: 3510, category: 'health', image: 'https://cdn.poehali.dev/files/b18c4885-c12d-455d-9701-99cffeef848a.jpg' },
+  { id: 15, name: 'Атоми Красный Женьшень в стик-желе', price: 5070, category: 'health', image: 'https://cdn.poehali.dev/files/68d0c537-be4f-4c40-9f1c-979abbd58f4f.jpg' },
+  { id: 16, name: 'Атоми Хонсамдан Женьшень', price: 10010, category: 'health', image: 'https://cdn.poehali.dev/files/ab5b1044-fc10-411c-a2c5-ee5808c14d95.jpg' },
 ];
 
 const Index = () => {
